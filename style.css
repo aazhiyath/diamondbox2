@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tangerine', cursive;
+}
+.name img {width: 50px ;
+            margin-left: 80px;
+            margin-top: 20px;
+           }
+.text {margin-top: 26px;}
+
+.text a:hover{
+    color: #ff01cf;
+}
+.text a{ text-decoration: none;
+        margin-left: 17px;}
+
+.header{
+    width: 100%;
+    display: flex;
+    font-size: 35px;
+    font-weight: 600;
+    background-image: url("./img/imeges/Diamondbox.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+}
+#navbar{
+    margin-left: auto;
+    margin-top: 9px;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    margin-right: 80px;
+    
+}
+#navbar ul a{
+    text-decoration: none;
+    color: rgb(194, 6, 6);
+    font-size: 30px;
+}
+#navbar ul li{
+    margin-left: 60px ;
+    font-weight: 600;
+    position: relative;
+}
+#navbar a:hover,
+#navbar a.active{
+    color: #ff01cf;
+}
+#navbar a.active::after,
+#navbar a:hover ::after{
+    content: " ";
+    width: 30%;
+    height: 2px;
+    background: #ff01cf;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+   
+}
+
+.lpage{
+    padding-top: 100px;
+    width: 100%;
+    height: 70vh;
+    background-image: url(/img/imeges/Diamondbox.jpg);
+   justify-content: center;
+   align-items: center;
+   display: flex;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.photo{
+  
+  width: 90%;
+  max-width: 440px;
+  text-align: center;
+  padding: 20px 30px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+.photo img{
+    border-radius: 50%;
+    width: 225px;
+}
+.photo h2{
+    font-size: 50px;
+    font-weight: 600px;
+    margin-top: 20px;
+    color: rgb(194, 6, 6);
+}
+.photo p{
+    font-size: 30px;
+    margin: 10px auto;
+    color: rgb(194, 6, 6);
+    max-width: 330px;
+}
+.social img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: 0.5s;
+}
+.social img:hover{
+    background-color: #ff01cf;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #fff;
+    color: rgb(194, 6, 6);
+    border-radius: 30px;
+    margin: 30px 0 10px;
+    padding: 10px 30px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #ff01cf;
+    color: #fff;
+}
+.about{
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 100px;
+    line-height: 40px;
+}
+.about p { font-size: 20px;
+           font-weight: 300;}
+.footer{
+   font-family: 'Poppins', sans-serif;
+   font-size: px;
+   background-color: #000;
+   color: #8a8a8a;
+   font-size: 30px;
+   padding: 16px 0 20px;
+}
+.footer p{
+   color: #8a8a8a;
+   font-size: 18px;
+}
+.footer h3{
+   color: #fff;
+   margin-bottom: 20px;
+   font-size: 20px;
+}
+
+.footer img{
+
+   width: 180px;
+}
+.col2 img{
+    margin-top: 50px;
+
+}
+.col img{
+    margin-left: 10px;
+
+}
+.col2 p{text-align: center;}
+
+ul{
+   list-style-type: none;
+   font-size: 18px;
+}
+
+.footer hr{
+    border: none;
+    height: 2px;
+    background: #b5b5b5;
+    margin: 20px ;
+ }
+.row {display: flex;
+        margin-top: 0px;
+      }
+.col{margin: 4px 94px;
+     }
+.col ul{ margin: 0;
+        padding: 0;
+        line-height: 37px;}
+.copyright {text-align: center;}
+.stories{padding: 100px;}
+
